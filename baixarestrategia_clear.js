@@ -1,4 +1,5 @@
 const intervalInit = 10000;
+
 function baixar() {
     const aulas = document.querySelectorAll(".LessonList-item > section > div > div > div > a");
     const len = aulas.length;  //quantidade total de aulas
